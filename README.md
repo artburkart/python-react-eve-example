@@ -12,15 +12,16 @@ Install dependencies
 apt-get install mongodb
 pip install -r requirements.txt
 npm install
+webpack
 ```
 
-Start the render server
+Start the render server in a separate terminal
 
 ```command
 node render_server.js
 ```
 
-Start the Python server
+Start the Python server in yet another terminal
 
 ```command
 python run.py
